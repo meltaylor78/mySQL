@@ -1,0 +1,1 @@
+mysql> tee 'SQL_Notes.txt'
