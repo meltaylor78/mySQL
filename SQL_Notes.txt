@@ -1,15 +1,19 @@
 
 Notes : 
+__________________________________________________________________________________________________________________________________________________________________
+
+The following commands are run from the Git terminal - not inside MYsql.
+
 The Chinook DB is down loaded. (wget )
-wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDatabase/DataSources/Chinook_EffiProz_AutoIncrementPKs.sql
+-> wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDatabase/DataSources/Chinook_EffiProz_AutoIncrementPKs.sql
 
 Install the DB : 
-my sql -v < https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDatabase/DataSources/Chinook_EffiProz_AutoIncrementPKs.sql
+-> mysql -v < Chinook_MySql_AutoIncrementPKs.sql
 
 Login - mysql 
 To chnage the db,
     use DBname
-
+__________________________________________________________________________________________________________________________________________________________________
 To show tables;
     show tables
 
